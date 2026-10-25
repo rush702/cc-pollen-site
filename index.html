@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CC Pollen · High Desert</title>
+<meta name="description" content="CC Pollen is the Brown family’s bee-products company. Raw pollen, propolis, royal jelly, and desert honey — gathered in the U.S., refrigerated at the hive, and never cooked to make them keep.">
+<style>
+  :root {
+    --bg: #0c0c0c;
+    --surface: #161616;
+    --text: #f5f0e8;
+    --muted: #a89a88;
+    --accent: #d4a054;
+    --accent-soft: #8b6914;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+  header {
+    padding: 48px 0 24px;
+    text-align: center;
+  }
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 56px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  .hero-sub {
+    font-size: 22px;
+    color: var(--muted);
+    margin-top: 16px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video-wrap {
+    margin: 48px 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  video {
+    width: 100%;
+    display: block;
+  }
+  section {
+    padding: 64px 0;
+    border-top: 1px solid #222;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+  }
+  .quote {
+    font-size: 20px;
+    font-style: italic;
+    color: var(--muted);
+    border-left: 3px solid var(--accent);
+    padding-left: 20px;
+    margin: 32px 0;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px;
+    margin: 32px 0;
+  }
+  .stat {
+    background: var(--surface);
+    padding: 24px;
+    border-radius: 8px;
+  }
+  .stat strong {
+    display: block;
+    font-size: 28px;
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  @media (max-width: 640px) {
+    .products { grid-template-columns: 1fr; }
+    h1 { font-size: 40px; }
+  }
+  .product {
+    background: var(--surface);
+    padding: 28px;
+    border-radius: 8px;
+  }
+  .product h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: var(--accent);
+  }
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: #111;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: 24px;
+  }
+  .cta:hover { text-decoration: none; filter: brightness(1.1); }
+  footer {
+    padding: 48px 0;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+    border-top: 1px solid #222;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="eyebrow">Phoenix · High Desert</div>
+    <h1>CC Pollen</h1>
+    <p class="hero-sub">The hive, kept cold since 1978.</p>
+  </div>
+</header>
+
+<div class="container">
+  <div class="video-wrap">
+    <video controls playsinline>
+      <source src="CC_Pollen_video_fade.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <p>CC Pollen is the Brown family’s bee-products company. Raw pollen, propolis, royal jelly, and desert honey — gathered in the U.S., refrigerated at the hive, and never cooked to make them keep.</p>
+    <div class="quote">“While health isn’t everything, without health, nothing else matters.”</div>
+    <div class="stats">
+      <div class="stat"><strong>1978</strong>Pollen trap patented and the brand begins</div>
+      <div class="stat"><strong>1957</strong>Family-owned, still run by Bruce Brown</div>
+      <div class="stat"><strong>33,000</strong>Square feet of manufacturing in Glendale</div>
+      <div class="stat"><strong>Cold</strong>From the trap to the truck. Never heat-treated</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Four gifts</h2>
+    <p style="margin-bottom:32px; color:var(--muted);">What the hive actually makes</p>
+    <div class="products">
+      <div class="product">
+        <h3>Bee pollen</h3>
+        <p>Flower pollen gathered by honeybees, blended from many regions, and kept cold from the trap to the jar.</p>
+      </div>
+      <div class="product">
+        <h3>Royal jelly</h3>
+        <p>The nutrient-dense food worker bees make for the queen. She is the only bee that eats it for life.</p>
+      </div>
+      <div class="product">
+        <h3>Bee propolis</h3>
+        <p>Sap and resin bees collect from trees, mixed with wax, and used to seal and protect the hive.</p>
+      </div>
+      <div class="product">
+        <h3>High Desert honey</h3>
+        <p>Unheated, unfiltered honey from American desert and wildflower bloom. Never a supermarket syrup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Dynamic Trio</h2>
+    <p>Bee pollen, royal jelly, and propolis in one daily routine. Tablets or capsules, thirty or ninety days.</p>
+    <p style="margin-top:16px; color:var(--muted);">Capsules from $39.95. Shop the real catalog on ccpollen.com.</p>
+    <a class="cta" href="https://ccpollen.com" target="_blank">Shop the catalog</a>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Whole foods, not isolated powders.</h2>
+    <p>Kim Flottum wrote it in Bee Culture: CC Pollen points at the beehive as a place cultures have respected for as long as there have been kitchens. The company still sells the food, not a single extracted molecule.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Before you order</h2>
+    <div style="display:grid; gap:24px;">
+      <div>
+        <h3 style="margin-bottom:8px;">What is bee pollen, really?</h3>
+        <p>It is flower pollen that honeybees pack into granules. One spoon can carry many plant species. CC Pollen blends regions on purpose so the jar is not a single-color, single-crop pollen.</p>
+      </div>
+      <div>
+        <h3 style="margin-bottom:8px;">How do I start the granules?</h3>
+        <p>Day one: two or three granules. Double each day until you reach about one teaspoon, roughly 3 grams. Eat them straight, or stir into yogurt, oatmeal, or a smoothie. Keep the jar cold.</p>
+      </div>
+      <div>
+        <h3 style="margin-bottom:8px;">Why the fuss about refrigeration?</h3>
+        <p>Most pollen Royden found in the 1970s was imported and heat-treated so it would not mold. The company has said that kind of handling can destroy a large share of the food value. High Desert pollen is cold from collection through shipment.</p>
+      </div>
+      <div>
+        <h3 style="margin-bottom:8px;">Who should not take hive products?</h3>
+        <p>Skip them if you are allergic to bee products, pollen, or bee stings. Honey is not for infants under 12 months. If you are pregnant, nursing, on medication, or under a doctor’s care, ask that clinician first.</p>
+      </div>
+    </div>
+    <p style="margin-top:32px;">Orders still go through <a href="https://ccpollen.com" target="_blank">ccpollen.com</a>, or by calling 1-800-875-0096.</p>
+    <a class="cta" href="https://ccpollen.com" target="_blank">Shop 800-875-0096 catalog</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    CC Pollen · Phoenix · High Desert<br>
+    This site is the company story. Orders go through ccpollen.com.
+  </div>
+</footer>
+</body>
+</html>
