@@ -26,9 +26,12 @@
   a:hover { text-decoration: underline; }
   .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
   header {
-    padding: 48px 0 24px;
+    padding: 32px 0 24px;
     text-align: center;
   }
+  nav { margin: 16px 0 24px; }
+  nav a { margin: 0 12px; color: var(--muted); font-size: 15px; }
+  nav a.active { color: var(--accent); }
   .eyebrow {
     font-size: 13px;
     letter-spacing: 0.2em;
@@ -139,6 +142,12 @@
   <div class="container">
     <div class="eyebrow">Phoenix · High Desert</div>
     <h1>CC Pollen</h1>
+    <nav>
+      <a href="/" class="active">Story</a>
+      <a href="/hive">The Hive</a>
+      <a href="/quality">Quality</a>
+      <a href="https://ccpollen.com" target="_blank">Shop</a>
+    </nav>
     <p class="hero-sub">The hive, kept cold since 1978.</p>
   </div>
 </header>
@@ -203,6 +212,7 @@
   <div class="container">
     <h2>Whole foods, not isolated powders.</h2>
     <p>Kim Flottum wrote it in Bee Culture: CC Pollen points at the beehive as a place cultures have respected for as long as there have been kitchens. The company still sells the food, not a single extracted molecule.</p>
+    <p style="margin-top:16px;"><a href="/quality">How the cold chain works →</a></p>
   </div>
 </section>
 
