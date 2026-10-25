@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/hive", "destination": "/hive.html" },
-    { "source": "/quality", "destination": "/quality.html" }
+    { "source": "/quality", "destination": "/quality.html" },
+    { "source": "/contact", "destination": "/contact.html" }
   ]
 }
